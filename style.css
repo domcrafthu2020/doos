@@ -52,3 +52,13 @@ header h1 {
         position: static;
         
     }
+}
+
+/* == COMPUTER == */
+@media (min-width: 1024px) {
+
+    /* == header == */
+    header h1 {
+        font-size: 7rem
+    }
+}
