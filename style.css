@@ -9,7 +9,8 @@ header {
     width: 100%;
     height: 15vh;
     display: inline-block;
-    background: orange
+    background: orange;
+    overflow: hidden hidden
 }
 
 header img {
@@ -92,8 +93,11 @@ h1 {
     color: palevioletred
 }
 
+/* == footer == */
+
 footer {
-    padding-top: 1rem
+    padding-top: 1rem;
+    overflow: hidden hidden
 }
 
 footer, footer a, footer .fa-instagram{
