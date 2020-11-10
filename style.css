@@ -32,6 +32,9 @@ header h1 {
 }
 
 /* == main == */
+main h1 {
+    padding-bottom: 1rem
+}
 
 h1 {
     text-align: center
@@ -70,6 +73,23 @@ h1 {
     #buttons #discord {
         font-size: 1.4rem
     }
+}
+
+/* = about = */
+#about p, #about a {
+    font-size: 2rem
+}
+
+#about a {
+    margin-right: 1rem
+}
+
+.fa-youtube-play {
+    color: red
+}
+
+.fa-instagram {
+    color: palevioletred
 }
 
 /* == TABLET == */
