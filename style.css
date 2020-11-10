@@ -29,6 +29,21 @@ header h1 {
     display: none;
 }
 
+/* == main == */
+.advertisement p {
+    text-align: center
+}
+
+.advertisement img {
+    display: inline-block;
+    width: 30rem;
+}
+
+.advertisement a {
+    display: inline-block;
+    margin: 0 calc(50vw - 15rem)
+}
+
 /* == TABLET == */
 @media (min-width: 768px) {
 
@@ -51,6 +66,11 @@ header h1 {
     header h1 {
         position: static;
         
+    }
+
+    /* == main == */
+    .advertisement a {
+        margin: 0
     }
 }
 
