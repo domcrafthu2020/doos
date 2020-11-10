@@ -92,6 +92,21 @@ h1 {
     color: palevioletred
 }
 
+footer {
+    padding-top: 1rem
+}
+
+footer, footer a, footer .fa-instagram{
+    text-align: center;
+    background: orange;
+    color: white;
+    margin-top: 2rem
+}
+
+footer .first {
+    padding-right: 1rem
+}
+
 /* == TABLET == */
 @media (min-width: 768px) {
 
