@@ -30,6 +30,10 @@ header h1 {
 }
 
 /* == main == */
+h1 {
+    text-align: center
+}
+
 .advertisement p {
     text-align: center
 }
